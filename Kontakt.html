@@ -7,7 +7,7 @@
 </head>
 <body>
     <nav>
-        <div class="logo"><img src="kisspng-umbrella-corps-umbrella-corporation-logo-5b08cf4a21e560.0564388815273040101389.png" alt="logo"></div>
+        <div class="logo"><img src="Logo.png" alt="logo"></div>
         <nav-items>
             <a href="index.html">Home</a>
             <a href="ForschungEntwicklung.html">Forschung und Entwicklung</a>
@@ -21,9 +21,19 @@
         <h2>Ihr Anliegen ist uns wichtig</h2>
         <p>Lorem Ipsum dolor sit amet</p> 
         <form action="fiktiver.server.php" method="post">
-            <label for="Nachname">Nachname:</label>
+            <label for="Nachname">Nachname</label>
             <input type="text" id="Nachname" name="Nachname" required>
             
+            <label for="Vorname">Vorname</label>
+            <input type="text" id="Vorname" name="Vorname" required>
+           
+            <label for="E-Mail">E-Mail</label>
+            <input type="email" id="E-Mail" name="E-Mail" required>
+
+            <label for="Nachricht">Ihre Nachricht</label>
+            <textarea name="Nachricht" id="Nachricht" cols="20" rows="4" required></textarea>
+
+            <button>Abschicken</button>
         </form>      
 </body>
 </html>
