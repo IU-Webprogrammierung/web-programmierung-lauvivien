@@ -1,24 +1,45 @@
 *{
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+    margin: 0%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 nav {
-    height: 80px;
-    background-color: #b71d11;
+    height: 70px;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0rem calc((100vw - 1300px)/2);
 }
 .logo img {
-    margin: 2rem;
     padding: 1rem;
     width: 180px;
     height: auto;
 }
 nav a {
     text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 0.5rem;
+    padding: 0.1rem;
+}
+.headerpicture div {
+    max-width: 2000px;
+    margin: 0 auto;
+    overflow: hidden;  
+}
+.headerpicture img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    display: block;
+}
+.textblock div {
+    padding: 1rem;
+    background-color: #b71d11;
+    color: #ffffff;
+    text-align: left;
+    line-height: 150%;
+
 }
