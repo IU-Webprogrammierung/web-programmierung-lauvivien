@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 nav {
@@ -10,7 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem calc((100vw - 1300px)/2);
+    padding: 1rem calc((100vw - 1300px)/2);
 }
 .logo img {
     padding: 1rem;
@@ -19,10 +19,13 @@ nav {
 }
 nav a {
     text-decoration: none;
-    color: black;
+    color: #b71d11;
     font-weight: 600;
     margin: 0.5rem;
     padding: 0.1rem;
+}
+nav a:hover{
+    color: black;
 }
 .headerpicture div {
     max-width: 2000px;
@@ -35,11 +38,42 @@ nav a {
     max-height: 300px;
     display: block;
 }
+
 .textblock div {
-    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
     background-color: #b71d11;
     color: #ffffff;
     text-align: left;
     line-height: 150%;
+}
+.textblock h1 {
+    font-size: 250%;
+    padding: 0.1rem;
+    padding-top: 01rem;
+    padding-bottom: 01rem;
 
+}
+.textblock p {
+    padding-top: 01rem;
+    padding-bottom: 02rem;
+}
+
+.textblock button {
+    border: none;
+    height: 45px;
+    width: 170px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 01rem;
+    padding: 10px;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: black;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #b71d11;
 }
