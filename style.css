@@ -10,11 +10,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem calc((100vw - 1300px)/2);
+    padding: 2.5rem;
 }
 .logo img {
     padding: 1rem;
-    width: 180px;
+    width: 220px;
     height: auto;
 }
 nav a {
@@ -35,7 +35,7 @@ nav a:hover{
 .headerpicture img {
     width: 100%;
     height: auto;
-    max-height: 300px;
+    max-height: 450px;
     display: block;
 }
 
@@ -78,16 +78,108 @@ button:hover {
     background-color: #ffffff;
     color: #b71d11;
 }
-.regulartext div {
+.regulartext p {
     padding-left: 5rem;
     padding-right: 5rem;
-    padding-top: 0.1rem;
-    padding-bottom: 0.2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #ffffff;
+    color: #000000;
     text-align: left;
     line-height: 150%;
 }
 .regulartext h2 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom:0.1rem;
+    color: #000000;
+    text-align: left;
+    line-height: 100%;    
+}
+footer {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    background-color: #730a00;
+    color: #ffffff;
+    text-align: center;
+}
+.footerlogo img {
+    padding: 1rem;
+    width: 180px;
+    height: auto;
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+    margin: 1rem;
     padding: 0.1rem;
-    padding-top: 01rem;
-    padding-bottom: 01rem;  
+    line-height: 150%;
+}
+footer p {
+    padding: 0.5rem;
+    margin-bottom: 0.1rem;
+    line-height: 150%;
+    font-size: smaller;
+}
+footer h4 {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    line-height: 150%;
+    font-size: smaller;
+}
+footer input {
+    padding: 0.5rem;
+    margin-bottom: 0.1rem;
+    line-height: 200%;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    
+}
+footer input {
+    outline: none;
+    border: none;
+    display:block;
+    line-height: 1.2em;
+    font-size: 14pt;
+  }
+footer button {
+    border: none;
+    height: 45px;
+    width: 170px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 01rem;
+    padding: 10px;
+    padding-bottom: 1rem;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: black;
+    cursor: pointer;
+}
+.column-container {
+    column-count: 3;
+    column-gap: 45px;
+    column-width: 100px;
+    margin: 5rem;
+    text-align: center;
+    line-height: 150%;
+}
+.column-container p {
+    margin: 0;
+    padding: 20px; 
+    background-color: transparent; 
+    border: none; 
+}
+.columnimage div {
+    max-width: 150px;
+    margin: 0;
+    overflow: hidden; 
+}
+.columnimage img {
+ height: 150px;
 }
