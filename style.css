@@ -183,3 +183,30 @@ footer button {
 .columnimage img {
  height: 150px;
 }
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(41, 39, 39, 0.1);
+    margin: 5rem;
+}
+.card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card-content {
+    padding: 20px;
+}
+.card-title {
+    margin-top: 0;
+}
+.card-text {
+    margin-bottom: 15px;
+}
+.card-link {
+    display: inline-block;
+    color: #b71d11;
+    text-decoration: none;
+}
