@@ -4,6 +4,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 60px;
+    flex-wrap: wrap;
 }
 .header_text{
     width: 850px;
@@ -12,6 +13,9 @@ header{
     height: 600px;
     width: 600px;
     overflow: hidden;
+
+    max-width: 80vw;
+    max-height: 80vw;
     
     display: flex;
     justify-content: center;
