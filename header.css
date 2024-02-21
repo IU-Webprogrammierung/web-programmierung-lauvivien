@@ -19,5 +19,34 @@ header{
 }
 .umbrella img{
     width: 100%;
-
+}
+nav{
+    margin-bottom: 120px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+nav a{
+    color: var(--main-color);
+    text-decoration: none;
+    position: relative;
+    padding: 4px;
+}
+nav a:hover{
+   color: var(--text-color); 
+}
+nav a::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 200ms ease-in-out;
+}
+nav a:hover::after{
+    width: 100%;
 }
