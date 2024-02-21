@@ -3,7 +3,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 70px;
     flex-wrap: wrap;
 }
 .header_text{
@@ -11,8 +11,8 @@ header{
 }
 
 .umbrella{
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
     overflow: hidden;
 
     max-width: 80vw;
@@ -65,8 +65,17 @@ label[for="toggle_button"] span{
     display: none;
 }
 @media(max-width: 800px){
+    nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--secondary);
+        padding: 15px;
+        border-radius: 0 0 10px 0;
+    }
     nav ul{
         display: none;
+        flex-direction: column;
 
     }
     #toggle_button:checked ~ul{
@@ -75,3 +84,4 @@ label[for="toggle_button"] span{
     label[for="toggle_button"] span{
         display: block;
     }
+}

@@ -1,0 +1,27 @@
+#Text{
+    padding: 0px 0;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    color: #fff;
+    flex-wrap: wrap-reverse;
+}
+.text-container{
+    width: 750px;
+    max-width: 90%;
+}
+.text-container h2{
+    font-size: 45px;
+    max-width: 90%;
+}
+.text-container p{
+    text-align: justify;
+    line-height: 175%;
+}
+#Text img{
+    width: 700px;
+    margin-left: 0px;
+
+}
