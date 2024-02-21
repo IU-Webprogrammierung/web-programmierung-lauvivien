@@ -1,0 +1,23 @@
+header{
+    padding: 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.header_text{
+    width: 850px;
+}
+.umbrella{
+    height: 600px;
+    width: 600px;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.umbrella img{
+    width: 100%;
+
+}

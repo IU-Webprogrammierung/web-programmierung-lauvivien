@@ -13,7 +13,7 @@
 }
 body{
     min-height: 100vh;
-    background-color: var(--secondary);
+    background-color: #fff;
     font-family: Mulish;
     font-size: 20px;
     color: var(--text-color);
