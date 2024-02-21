@@ -1,0 +1,15 @@
+#Columns{
+    padding: 70px 0;
+    background-color: var(--main-color);
+}
+#Columns h2{
+    font-size: 50px;
+    margin-left: 100px;
+    padding: 25px;
+    color: #fff; 
+}
+.flex_container{
+    display: flex;
+    gap: 20px;
+
+}

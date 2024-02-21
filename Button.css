@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+#general{
+    height: 45px;
+    width: max-content;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+    font-family: ;
+}
+#general:hover {
+    border-radius: 25px;
+    transition: 220ms ease-in-out;

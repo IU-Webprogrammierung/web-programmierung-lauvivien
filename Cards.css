@@ -8,20 +8,21 @@
     width: calc(33.33% - 20px);
     margin-bottom: 20px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .card:hover {
     transform: translateY(-2px); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    background-color: #ddd;
+    background-color: var(--secondary);
     cursor: pointer;
 }
 .card-image {
     width: 100%;
-    height: auto;
+    height: fit-content;
     display: block;
+    overflow: hidden;
 }
 .card-content {
     padding: 20px;
