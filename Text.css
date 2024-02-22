@@ -24,7 +24,7 @@
     max-width: 750px;
     height: auto;
     margin-left: 0px;
-    overflow: visible
+    overflow: visible;
 }
 @media(max-width: 800px){
     #Text{

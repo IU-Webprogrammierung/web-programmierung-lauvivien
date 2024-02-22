@@ -1,5 +1,5 @@
 #Werte{
-    padding: 70px 0;
+    padding: 100px 0;
     background-color: var(--main-color);
 }
 #Werte h2{
@@ -9,16 +9,22 @@
     padding: 25px;
     color: #fff; 
 }
+h3 {
+    font-size: 150%;
+    font-weight: bolder;
+    color: var(--main-color);
+}
 .flex_container{
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 100px;
     display: flex;
     gap: 40px;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 .column{
-    width: 350px;
+    width: 450px;
     background-color: #fff;
     border-radius: 5px;
     padding: 60px 20px;
@@ -28,7 +34,11 @@
     justify-content: center;
     gap: 20px;
 }
-.flex_container img{
-    width: 80px;
-
+.column img{
+    width: 120px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.column *{
+    text-align: center;
 }
