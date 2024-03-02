@@ -1,0 +1,81 @@
+footer{
+    padding: 70px 0;
+    background-color: #fff;
+
+}
+footer h2{
+    font-size: 50px;
+    text-align: center;
+
+}
+.grid_container{
+    margin: 60px auto;
+    width: 1500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 20px;
+    grid-template-areas:
+    "Logo Sitemap Sitemap Newsletter"
+    "SM SM Disclaimer Newsletter";
+}
+.grid_item{
+    background-color: var(--main-color);
+
+}
+#Logo{
+    grid-area: Logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 5px;
+}
+#Logo img{
+    height: 150px;
+    width: auto;
+}
+#Sitemap{
+    grid-area: Sitemap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 5px;
+}
+#Newsletter{
+    grid-area: Newsletter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 px;
+    gap: 10px;
+    background-color: transparent;
+}
+#Newsletter img{
+    height: 710px;
+}
+#SM{
+    grid-area: SM;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 5px;
+}
+#Disclaimer{
+    grid-area: Disclaimer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 5px;
+}
+#Disclaimer img{
+    height: 50px;
+    width: 50px;
+
+}
