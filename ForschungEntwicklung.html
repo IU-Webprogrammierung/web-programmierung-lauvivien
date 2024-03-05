@@ -3,76 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="general_style.css">   
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="Text.css">
+    <link rel="stylesheet" href="Cards.css">
+    <link rel="stylesheet" href="Button.css">
+    <link rel="stylesheet" href="Columns.css">
+    <link rel="stylesheet" href="footer.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Forschung und Entwicklung</title>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <img src="Pictures\Logo.png" alt="">  
-        </div>    
-            <nav-items>
-                <a href="index.html">Home</a>
-                <a href="ForschungEntwicklung.html">Forschung und Entwicklung</a>
-                <a href="Produkte.html">Produkte</a>
-                <a href="Kontakt.html">Kontakt</a>
-            </nav-items>
-    </nav>
-    <img src="WissenschftlErfolge.jpg" alt="">
-    <section class="hero"></section>
-    <div class="hero-container">
-        <h2>Wissenschaftliche Erfolge</h2>
-        <p>Die Umbrella Corporation ist stolz darauf, führend in der Erforschung und Anwendung biotechnologischer Innovationen zu sein. Wir haben effektive Methoden entwickelt, um biologische Prozesse zu verstehen und zu manipulieren, was zu neuen Ansätzen in der Medizin, Landwirtschaft und Umweltschutz führt.</p>
-        <p>Wir glauben fest daran, dass bald die gesamte Welt von den errungenen wissenschaftlichen Fortschritten profitieren wird. Die Umbrella Corporation setzt sich weiterhin dafür ein, Innovationen voranzutreiben und den Weg für eine goldene Ära in der Wissenschaft zu ebnen.</p>
-        <p>Bald werden die Früchte unserer Bemühungen nicht nur auf wissenschaftlicher Ebene, sondern weltweit zu spüren sein.</p>
-    </div>
-    <section class="hero"></section>
-    <div class="hero-container">
-        <h2>Forschungsteam</h2>
-        <p>Unser multidisziplinäres Team vereint Fachwissen aus verschiedenen Bereichen wie Virologie, Genetik, Pharmakologie und Biotechnologie, um innovative Lösungen zu entwickeln, die die Gesundheitslandschaft revolutionieren.</p>
-    </div>
-    <section class="hero"></section>
-    <div class="column-left">
-    <img src="william.png" alt="">    
-    <h3>Dr. William Birkin</h3>
-        <h4>Lead Scientist</h4>
-        <p>Als visionärer Genetiker und Forschungsleiter hat Dr. Birkin maßgeblich dazu beigetragen, die Grenzen der Genomforschung zu erweitern. Seine wegweisenden Arbeiten in den Bereichen Virologie und Genetik haben nicht nur die Grundlagen für die Entwicklung innovativer Therapieansätze geschaffen, sondern auch die DNA der medizinischen Wissenschaft neu geschrieben. </p>
-        <button class="SM">LinkedIn</button>
-        <button class="SM">Mail</button>
-    </div>
-        <div class="column-middle">
-    <img src="annette.png" alt="">        
-    <h3>Dr. Annette Birkin</h3>
-        <h4>Lead Scientist</h4>
-        <p>Dr. Annette Birkin, eine herausragende Biologin im Dienste der Umbrella Corporation, ist die Verkörperung wissenschaftlicher Brillanz und Forschungsleidenschaft. Ihre Expertise in Genetik und Biotechnologie hat nicht nur zu bahnbrechenden Entwicklungen geführt, sondern auch die Grundlagen für die Zukunft der medizinischen Wissenschaft gelegt.</p>
-        <button class="SM">LinkedIn</button>
-        <button class="SM">Mail</button>
-    </div>
-        <div class="column-middle">
-    <img src="luis.png" alt="">        
-    <h3>Dr. Luis Serra Navarro</h3>
-        <h4>Lead Scientist</h4>
-        <p>Als führender Experte in der Parasitologie leitet Dr. Serra Navarro wegweisende Projekte, die darauf abzielen, wirksame Lösungen für parasitäre Erkrankungen zu entwickeln. Seine Forschung ist nicht nur wegweisend, sondern auch ein Versprechen für eine Zukunft, in der parasitäre Krankheiten effektiv bekämpft werden können.</p>
-        <button class="SM">LinkedIn</button>
-        <button class="SM">Mail</button>
-    </div>
-    <footer>
-        <img src="footer logo.png" alt="">
-    <h4>Sitemap</h4>
-    <a href="index.html">Home</a>
-    <a href="ForschungEntwicklung.html">Forschung und Entwicklung</a>
-    <a href="Produkte.html">Produkte</a>
-    <a href="Kontakt.html">Kontakt</a>
-    <p>Umbrella Corporation © 2024 | Alle Rechte vorbehalten.</p>
-    <h4>Newsletter abonnieren</h4>
-        <form action="fiktiver.server.php" method="post"></form>
-        <label for="Email">Email</label>
-        <input type="text" id="Email" name="E-Mail" required>
-        <button>Anmelden</button>
-    <p>Es handelt sich hierbei um eine rein fiktive Seite.</p>
-    <p>Erstellt von Vivien Lau (Matrikelnummer 91915142) </p>
-    </footer> 
+    <header>
+        <div class="header_text">
+            <nav>
+                <input type="checkbox" id="toggle_button">
+                <label for="toggle_button">
+                    <span class="material-symbols-outlined">menu</span>
+                </label>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="ForschungEntwicklung.html"> Forschung und Entwicklung</a></li>
+                    <li><a href="Produkte.html"> Produkte</a></li>
+                    <li><a href="Kontakt.html"> Kontakt</a></li>
+                </ul>
+            </nav>
+    </header>
+<section id="Text-white">
+        <div class="text-container-white">
+            <h2>Wissenschaftliche Erfolge<span style="color: #b71d11">.</span></h2>
+            <p>Die Umbrella Corporation ist stolz darauf, führend in der Erforschung und Anwendung biotechnologischer Innovationen zu sein. Wir haben effektive Methoden entwickelt, um biologische Prozesse zu verstehen und zu manipulieren, was zu neuen Ansätzen in der Medizin, Landwirtschaft und Umweltschutz führt.<br> Wir glauben fest daran, dass bald die gesamte Welt von den errungenen wissenschaftlichen Fortschritten profitieren wird. Die Umbrella Corporation setzt sich weiterhin dafür ein, Innovationen voranzutreiben und den Weg für eine goldene Ära in der Wissenschaft zu ebnen.<br> Bald werden die Früchte unserer Bemühungen nicht nur auf wissenschaftlicher Ebene, sondern weltweit zu spüren sein.</p>        </div>
+</section>
+<section id="carousel">
+    <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <div id="slide">
+            <div id="overflow">
+                <div class="inner">
+                    <div class="slide_slide1">
+                        <div class="slide-content">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </div>
+</section>
     
 </body>
 </html>

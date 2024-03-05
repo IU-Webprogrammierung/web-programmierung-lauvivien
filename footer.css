@@ -47,7 +47,7 @@ footer h2{
 }
 #Newsletter{
     grid-area: Newsletter;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     padding: 0 px;
@@ -67,7 +67,7 @@ footer h2{
 }
 #Disclaimer{
     grid-area: Disclaimer;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
@@ -79,3 +79,30 @@ footer h2{
     width: 50px;
 
 }
+.grid_item li{
+    list-style: none;
+    line-height: 150%;
+}
+.grid_item a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 150%;
+}
+.grid_item h3{
+    color: #fff;
+}
+.grid_item p{
+    color: #fff;
+    line-height: 150%;
+}
+.grid_item input{
+    height: 40px;
+    width: 280px;
+    border-style: none;
+    border-radius: 5px;
+}
+input::placeholder {
+    padding: 12px;
+    font-size: medium;
+}
+
