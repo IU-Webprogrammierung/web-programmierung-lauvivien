@@ -1,0 +1,35 @@
+#slider{
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+}
+#slider input[type=radio]{
+    display: none;
+    
+}
+#slider label{
+    cursor: pointer;
+    text-decoration: none;
+}
+#slides{
+    padding: 30px;
+    border: var(--li-secondary);
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+#overflow {
+    width: 100%;
+    overflow: hidden;
+}
+#slide1:checked ~ #slides .inner{
+    margin-left: 0;
+}
+#slide2:checked ~ #slides .inner{
+    margin-left: 0;
+}
+#slide3:checked ~ #slides .inner{
+    margin-left: 0;
+}
