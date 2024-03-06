@@ -81,8 +81,8 @@
 }
 #carousel p{
     font-size: 20px;
-    max-width: 90%;
-    line-height: 150%;
+    width: 900px;
+    line-height: 175%;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -94,3 +94,4 @@
         text-align: center;
         font-size: 12vw;
     }
+}

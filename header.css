@@ -8,11 +8,13 @@ header{
 }
 .header_text{
     width: 850px;
+    line-height: 175%;
+    font-size: 20px;
 }
 
 .umbrella{
-    height: 700px;
-    width: 700px;
+    height: 500px;
+    width: 500px;
     overflow: hidden;
 
     max-width: 80vw;
