@@ -25,6 +25,7 @@
     height: auto;
     margin-left: 0px;
     overflow: visible;
+    border-radius: 5px;
 }
 @media(max-width: 800px){
     #Text{
@@ -57,8 +58,15 @@
     text-align: justify;
     line-height: 175%;
 }
+#Text-white img{
+    max-width: 750px;
+    height: auto;
+    margin-left: 0px;
+    overflow: hidden;
+    border-radius: 5px;
+}
 @media(max-width: 800px){
-    #Text{
+    #Text-white{
         padding: 50px;
     }
     .text-container-white h2{
@@ -66,4 +74,23 @@
         font-size: 12vw;
     }
 }
-
+#carousel h2{
+    font-size: 45px;
+    max-width: 90%;
+    text-align: center;
+}
+#carousel p{
+    font-size: 20px;
+    max-width: 90%;
+    line-height: 150%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+@media(max-width: 800px){
+    #carousel p{
+        padding: 50px;
+    }
+    #carousel h2{
+        text-align: center;
+        font-size: 12vw;
+    }
