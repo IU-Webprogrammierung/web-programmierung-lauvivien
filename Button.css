@@ -16,3 +16,26 @@
     border-radius: 25px;
     transition: 220ms ease-in-out;
 }
+#BTT {
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+    text-align: center;
+    display: none; 
+    position: fixed; 
+    bottom: 30px; 
+    right: 40px; 
+    z-index: 99; 
+    border: 1px; 
+    background-color: #7FA497; 
+    color: #fff; 
+    cursor: pointer;  
+    border-radius: 100px; 
+    font-size: 25px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+  }
+  
+  #BTT:hover {
+    background-color: var(--text-color);
+    transition: 220ms ease-in-out;
+  }

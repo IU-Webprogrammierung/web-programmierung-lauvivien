@@ -16,7 +16,7 @@
    overflow-x: hidden;
    scroll-snap-type: x mandatory;
    scroll-behavior: smooth;
-   box-shadow: 0 1.4rem 3rem -1.5rem rgba(68, 68, 68, 0.603);
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
    border-radius: 5px;
 }
 
