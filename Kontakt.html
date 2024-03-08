@@ -15,49 +15,58 @@
     <title>Kontakt</title>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <img src="Pictures\Logo.png" alt="">  
+    <header>
+        <div class="header_text">
+            <nav>
+                <input type="checkbox" id="toggle_button">
+                <label for="toggle_button">
+                    <span class="material-symbols-outlined">menu</span>
+                </label>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="ForschungEntwicklung.html"> Forschung und Entwicklung</a></li>
+                    <li><a href="Produkte.html"> Produkte</a></li>
+                    <li><a href="Kontakt.html"> Kontakt</a></li>
+                </ul>
+            </nav>
+    </header>
+    <section id="Text-white">
+        <div class="text-container-white">
+            <h2>Ihr Ansprechpartner<span style="color: #b71d11">.</span></h2>
+            <p>Wir bei der Umbrella Corporation möchten sicherstellen, dass Sie stets den richtigen Ansprechpartner für Ihre Anliegen und Fragen finden. Bitte nutzen Sie das untenstehende Kontaktformular, um uns direkt zu erreichen und Ihre Anfrage zu senden. Wir möchten versichern Ihnen, dass Ihre Anfragen stets zeitnah und kompetent bearbeitet werden. Zögern Sie daher nicht, uns zu kontaktieren, und wir werden uns bemühen, Ihnen bestmöglich zu helfen.</p>
         </div>    
-            <nav-items>
-                <a href="index.html">Home</a>
-                <a href="ForschungEntwicklung.html">Forschung und Entwicklung</a>
-                <a href="Produkte.html">Produkte</a>
-                <a href="Kontakt.html">Kontakt</a>
-            </nav-items>
-    </nav>
-    <section>
-        <h2>Ihr Ansprechpartner</h2>
-        <p>Wir bei der Umbrella Corporation möchten sicherstellen, dass Sie stets den richtigen Ansprechpartner für Ihre Anliegen und Fragen finden.</p>
-        <p>Bitte nutzen Sie das untenstehende Kontaktformular, um uns direkt zu erreichen und Ihre Anfrage zu senden.</p>
-        <p>Wir möchten versichern Ihnen, dass Ihre Anfragen stets zeitnah und kompetent bearbeitet werden. Zögern Sie daher nicht, uns zu kontaktieren, und wir werden uns bemühen, Ihnen bestmöglich zu helfen.</p>
     </section> 
-    <section class="hero">
-        <div class="hero-container">
-        <div class="column-left">
-        <h2>Ihr Anliegen ist uns wichtig</h2>
-        <p>Bitte füllen Sie dieses Formular aus, damit wir Ihnen schhnellstmöglich weiterhelfen können.</p> 
+    <section id="Text-white">
+        <div class="text-container-white">
+            <h2>Ihr Anliegen ist uns wichtig<span style="color: #b71d11">.</span></h2>
+            <p>Lorem Ipsum dolor sit amet.</p>
+        </div>    
+    </section> 
+    <section id="form">
         <form action="fiktiver.server.php" method="post">
-        <div>
-            <label for="Nachname">Nachname</label>
-            <input type="text" id="Nachname" name="Nachname" required>
-        </div>
-        <div>
-            <label for="Vorname">Vorname</label>
-            <input type="text" id="Vorname" name="Vorname" required>
-        </div>
-        <div></div>           
-            <label for="E-Mail">E-Mail</label>
-            <input type="email" id="E-Mail" name="E-Mail" required>
-        </div>
-        <div>
-            <label for="Nachricht">Ihre Nachricht</label>
-            <textarea name="Nachricht" id="Nachricht" cols="20" rows="4" required></textarea>
-        </div>
+            <div>
+              <label for="Nachname">Nachname</label>
+              <input type="text" id="Nachname" name="Nachname" placeholder="Nachname" required>
+            </div>
+            
+            <div>
+              <label for="Vorname">Vorname</label>
+              <input type="text" id="Vorname" name="Vorname" placeholder="Vorname" required>
+            </div>
+            
+            <div>
+              <label for="E-Mail">E-Mail</label>
+              <input type="email" id="E-Mail" name="E-Mail" placeholder="E-Mail" required>
+            </div>
+            
+            <div>
+              <label for="Nachricht">Ihre Nachricht</label>
+              <textarea name="Nachricht" id="Nachricht" cols="20" rows="4" placeholder="Ihre Nachricht" required></textarea>
+            </div>
+            
             <button>Abschicken</button>
-        </form>
+          </form>
     </section>   
-<img src="mitarbeiter.jpg" alt="">           
 </body>
 <footer>
     <h2>Our Business is life itself<span style="color: var(--main-color)">.</span></h2>

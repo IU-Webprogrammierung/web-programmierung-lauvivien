@@ -38,6 +38,8 @@
 }
 #Text-white{
     padding: 100px 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
     background-color: #fff;
     display: flex;
     justify-content: center;
