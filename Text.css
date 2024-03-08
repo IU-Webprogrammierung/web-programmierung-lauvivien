@@ -117,6 +117,13 @@
 input::placeholder {
     padding: 12px;
     font-size: medium;
+    font-family: Mulish;
+}
+input{
+    border-style: line;
+    border-width: 2px;
+    font-size: medium;
+    font-family: Mulish;
 }
 #form textarea{
     height: 80px;
@@ -126,4 +133,15 @@ input::placeholder {
     border-radius: 5px;
     margin: 8px;
     resize: none;
+}
+textarea::placeholder {
+    padding: 12px;
+    font-size: medium;
+    font-family: Mulish;
+}
+textarea{
+    border-style: line;
+    border-width: 2px;
+    font-size: medium;
+    font-family: Mulish;
 }
