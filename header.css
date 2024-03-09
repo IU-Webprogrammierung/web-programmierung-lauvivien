@@ -1,16 +1,28 @@
 header{
-    padding: 100px;
+    padding: 90px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+#Welcome{
+    padding: 20px;
     padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 70px;
     flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 25px;
 }
 .header_text{
     width: 850px;
     line-height: 175%;
     font-size: 20px;
+
 }
 
 .umbrella{
@@ -25,6 +37,7 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 .umbrella img{
     width: 100%;
 }
@@ -67,19 +80,23 @@ label[for="toggle_button"] span{
 label[for="toggle_button"] span{
     display: none;
 }
+
 @media(max-width: 800px){
     nav{
         position: absolute;
         top: 0;
         left: 0;
-        background-color: var(--secondary);
+        background: linear-gradient(to right, #7FA497, #59E0B3);
         padding: 15px;
-        border-radius: 0 0 10px 0;
+        border-radius: 50px;
+        margin: 10px;
     }
     nav ul{
         display: none;
         flex-direction: column;
-
+    }
+    nav a{
+        color: var(--text-color);
     }
     #toggle_button:checked ~ul{
         display: flex;

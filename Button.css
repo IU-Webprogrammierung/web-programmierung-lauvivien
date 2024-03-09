@@ -41,3 +41,25 @@
     background: linear-gradient(to right, #59E0B3, #00FFAA);
     transition: 420ms ease-in-out;
   }
+  #next-btn{
+    height: 45px;
+    width: max-content;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border-style: none;
+    
+    color: var(--text-color); 
+    background: linear-gradient(to right, #7FA497, #59E0B3);
+    cursor: pointer;
+    font-family: Mulish;
+    font-size: 20px;
+
+}
+#next-btn:hover {
+    background: linear-gradient(to right, #59E0B3, #00FFAA);
+    transition: 420ms ease-in-out;
+}

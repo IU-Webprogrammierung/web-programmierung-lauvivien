@@ -13,6 +13,7 @@ accordionItemHeaders.forEach(accordionItemHeader => {
    
   });
 });
+
 let mybutton = document.getElementById("BTT");
 
 window.onscroll = function() {scrollFunction()};
@@ -29,3 +30,22 @@ function topFunction() {
   document.body.scrollTop = 0; 
   document.documentElement.scrollTop = 0;
 }
+
+const header = document.querySelector('header'); 
+const textSection = document.getElementById('Text');
+const nextBtn = document.getElementById('next-btn');
+
+let currentSection = header;
+
+nextBtn.addEventListener('click', () => {
+
+  if(currentSection === header) {
+    currentSection = textSection;
+    textSection.scrollIntoView({behavior: 'smooth'});
+
+  } else {
+    currentSection = header;
+    header.scrollIntoView({behavior: 'smooth'});
+  }
+
+}); 

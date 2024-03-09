@@ -7,6 +7,7 @@
    position: relative;
    max-width: 60rem;
    margin: 0 auto;
+   justify-content: center;
 }
 
 .slider {
@@ -67,3 +68,33 @@
    text-align: center;
    transition: top 0.5s, left 0.5s;
 }
+#carousel p{
+   justify-content: center;
+   padding: 50px;
+   margin: 20px;
+}
+.centered-text {
+   max-width: 90%;
+   margin: 0 auto;
+   padding: 50px;
+   box-sizing: border-box;
+   overflow: hidden;
+   text-align: center;
+ }
+ 
+ .centered-text {
+   width: 80%;
+ }
+ 
+ .centered-text p {
+   padding: 0;
+   margin: 0;
+   line-height: 175%;
+   font-size: 20px;
+ }
+ .centered-text h2 {
+   padding: 0;
+   margin: 0;
+   line-height: 175%;
+   font-size: 45px;
+ }
