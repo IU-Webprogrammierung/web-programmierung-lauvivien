@@ -80,6 +80,9 @@ label[for="toggle_button"] span{
 label[for="toggle_button"] span{
     display: none;
 }
+nav img{
+    width: 120px;
+}
 
 @media(max-width: 800px){
     nav{
