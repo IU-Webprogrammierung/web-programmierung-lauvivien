@@ -81,7 +81,8 @@ label[for="toggle_button"] span{
     display: none;
 }
 nav img{
-    width: 120px;
+    height: 35px;
+    width: auto;
 }
 
 @media(max-width: 800px){

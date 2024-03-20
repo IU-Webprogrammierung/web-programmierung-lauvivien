@@ -16,10 +16,15 @@ accordionItemHeaders.forEach(accordionItemHeader => {
 
 let mybutton = document.getElementById("BTT");
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+  scrollFunction();
+};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -27,8 +32,10 @@ function scrollFunction() {
 }
 
 function topFunction() {
-  document.body.scrollTop = 0; 
-  document.documentElement.scrollTop = 0;
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth" 
+  });
 }
 
 const header = document.querySelector('header'); 
