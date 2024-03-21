@@ -1,4 +1,4 @@
-#Text{
+#Text {
     padding: 100px 0;
     background-color: var(--main-color);
     display: flex;
@@ -7,36 +7,46 @@
     gap: 120px;
     color: #fff;
     flex-wrap: wrap-reverse;
-    }
-.text-container{
+}
+
+.text-container {
     width: 750px;
     max-width: 90%;
 }
-.text-container h2{
+
+.text-container h2 {
     font-size: 45px;
     max-width: 90%;
+    text-align: left; 
 }
-.text-container p{
+
+.text-container p {
     text-align: justify;
     line-height: 175%;
+    text-align: left;
+    padding-top: 20px;
 }
-#Text img{
+
+#Text img {
     max-width: 750px;
     height: auto;
     margin-left: 0px;
     overflow: visible;
     border-radius: 5px;
 }
-@media(max-width: 800px){
-    #Text{
+
+@media(max-width: 800px) {
+    #Text {
         padding: 50px;
     }
-    .text-container h2{
+
+    .text-container h2 {
         text-align: center;
         font-size: 12vw;
     }
 }
-#Text-white{
+
+#Text-white {
     padding: 100px 0;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -47,66 +57,81 @@
     gap: 120px;
     color: var(--text-color);
     flex-wrap: wrap;
-    }
-.text-container-white{
+}
+
+.text-container-white {
     width: 750px;
     max-width: 90%;
 }
-.text-container-white h2{
+
+.text-container-white h2 {
     font-size: 45px;
     max-width: 90%;
+    text-align: left; 
 }
-.text-container-white p{
+
+.text-container-white p {
     text-align: justify;
     line-height: 175%;
+    text-align: left;
+    padding-top: 20px;
 }
-#Text-white img{
+
+#Text-white img {
     max-width: 750px;
     height: auto;
     margin-left: 0px;
     overflow: hidden;
     border-radius: 5px;
 }
-@media(max-width: 800px){
-    #Text-white{
+
+@media(max-width: 800px) {
+    #Text-white {
         padding: 50px;
     }
-    .text-container-white h2{
+
+    .text-container-white h2 {
         text-align: center;
         font-size: 12vw;
     }
 }
-#carousel h2{
+
+#carousel h2 {
     font-size: 45px;
     max-width: 90%;
     text-align: center;
 }
-#carousel p{
+
+#carousel p {
     font-size: 20px;
     width: 900px;
     line-height: 175%;
     text-align: center;
     padding-bottom: 20px;
 }
-@media(max-width: 800px){
-    #carousel p{
+
+@media(max-width: 800px) {
+    #carousel p {
         padding: 50px;
     }
-    #carousel h2{
+
+    #carousel h2 {
         text-align: center;
         font-size: 12vw;
-    }  
+    }
 }
+
 #form {
     padding: 100px 0;
     padding-bottom: 50px;
-    padding-top: 50px;  
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px
+    gap: 20px;
 }
-#form input{
+
+#form input {
     height: 40px;
     width: 420px;
     border-style: line;
@@ -114,18 +139,21 @@
     border-radius: 5px;
     margin: 8px;
 }
+
 input::placeholder {
     padding: 12px;
     font-size: medium;
     font-family: Mulish;
 }
-input{
+
+input {
     border-style: line;
     border-width: 2px;
     font-size: medium;
     font-family: Mulish;
 }
-#form textarea{
+
+#form textarea {
     height: 80px;
     width: 420px;
     border-style: line;
@@ -134,12 +162,14 @@ input{
     margin: 8px;
     resize: none;
 }
+
 textarea::placeholder {
     padding: 12px;
     font-size: medium;
     font-family: Mulish;
 }
-textarea{
+
+textarea {
     border-style: line;
     border-width: 2px;
     font-size: medium;
