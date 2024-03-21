@@ -1,5 +1,5 @@
 #Werte{
-    padding: 100px 0;
+    padding: 25px 0;
     background-color: var(--main-color);
 }
 #Werte h2{
@@ -27,7 +27,7 @@ h3 {
     width: 450px;
     background-color: #fff;
     border-radius: 5px;
-    padding: 60px 20px;
+    padding: 50px 20px;
 
     display: flex;
     flex-direction: column;
