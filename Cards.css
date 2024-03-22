@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 100px 100px;
-    gap: 15px;
+    gap: 20px;
 }
 .card {
     width: calc(33.33% - 20px);

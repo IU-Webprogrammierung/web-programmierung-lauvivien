@@ -63,7 +63,7 @@
    border-radius: 5px;
    background-color: hsla(4, 83%, 39%, 0.5);
    color: #fff; 
-   padding: 30px 40px; 
+   padding: 50px 40px; 
    font-size: 20px; 
    text-align: center;
    transition: top 0.5s, left 0.5s;
@@ -74,12 +74,12 @@
    margin: 20px;
 }
 .centered-text {
-   max-width: 90%;
+   max-width: 60%;
    margin: 0 auto;
    padding: 50px;
    box-sizing: border-box;
    overflow: hidden;
-   text-align: center;
+   text-align: left;
  }
  
  .centered-text {
