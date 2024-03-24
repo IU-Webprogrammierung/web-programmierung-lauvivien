@@ -63,3 +63,9 @@
     background: linear-gradient(to right, #59E0B3, #00FFAA);
     transition: 420ms ease-in-out;
 }
+
+@media (max-width: 800px){
+   *{
+      text-align: center;
+     }
+   }

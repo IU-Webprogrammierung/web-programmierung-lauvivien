@@ -1,108 +1,137 @@
 footer{
     padding: 70px 0;
-    background-color: #fff;
-
-}
-footer h2{
+    background: #fff;
+  }
+  footer h2{
     font-size: 50px;
     text-align: center;
-
-}
-.grid_container{
+    color: var(--text-color);
+  }
+  .grid_container{
     margin: 60px auto;
     width: 1500px;
+    max-width: 90%;
+  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
-    gap: 20px;
-    grid-template-areas:
-    "Logo Sitemap Sitemap Newsletter"
-    "SM SM Disclaimer Newsletter";
-}
-.grid_item{
+    gap: 15px;
+    grid-template-areas: 
+    "item1 item1 item2 item3"
+    "item4 item5 item5 item3";
+  }
+  .grid_item{
     background-color: var(--main-color);
-
-}
-#Logo{
-    grid-area: Logo;
+    padding: 50px;
+  
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
-    gap: 20px;
+    gap: 50px;
     border-radius: 5px;
-}
-#Logo img{
-    height: 150px;
-    width: auto;
-}
-#Sitemap{
-    grid-area: Sitemap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    gap: 20px;
-    border-radius: 5px;
-}
-#Newsletter{
-    grid-area: Newsletter;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 px;
-    gap: 10px;
-    background-color: transparent;
-}
-#Newsletter img{
-    height: 710px;
-}
-#SM{
-    grid-area: SM;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    gap: 20px;
-    border-radius: 5px;
-}
-#Disclaimer{
-    grid-area: Disclaimer;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    gap: 20px;
-    border-radius: 5px;
-}
-#Disclaimer img{
+  }
+  .grid_item img{
     height: 50px;
     width: 50px;
-
-}
-.grid_item li{
-    list-style: none;
-    line-height: 150%;
-}
-.grid_item a{
+    gap: 10px;
+  }
+ #footerlogo{
+    height: 80px;
+    width: auto;
+ }
+  .grid_item a{
+    color: #fff;
     text-decoration: none;
+    line-height: 150%;
+  }
+  .grid_item li{
+    list-style: none;
+  }
+  .grid_item h3{
+    color: #fff;
+  }
+  .grid_item h4{
     color: #fff;
     line-height: 150%;
-}
-.grid_item h3{
-    color: #fff;
-}
-.grid_item p{
+    font-weight: lighter;
+    font-size: 14px;
+    padding-top: 25px;
+  }
+  .grid_item p{
     color: #fff;
     line-height: 150%;
-}
-.grid_item input{
+  }
+  .grid_item input{
     height: 40px;
-    width: 280px;
-    border-style: none;
+    width: 420px;
+    border-style: line;
+    border-width: 1px;
     border-radius: 5px;
-}
-input::placeholder {
-    padding: 12px;
-    font-size: medium;
-}
+    margin: 8px;
+  }
 
+
+  #item1{
+    grid-area: item1;
+  }
+  #item2{
+    grid-area: item2;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #item3{
+    grid-area: item3;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  #item4{
+    grid-area: item4;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #item5{
+    grid-area: item5;
+  }
+  @media(max-width: 1300px){
+    
+    .grid_container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px 300px;
+    
+        grid-template-areas: 
+        "item1 item1 item2"
+        "item4 item5 item5"
+        "item3 item3 item3";
+    }
+  }
+  @media(max-width: 900px){
+    
+    .grid_container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    
+        grid-template-areas: 
+        "item1 item1"
+        "item5 item5"
+        "item2 item4"
+        "item3 item3";
+    }
+    
+  }
+  @media(max-width: 650px){
+    footer h2{
+        font-size: 9vw;
+    }
+    .grid_item{
+        padding: 20px;
+    }
+    .grid_item img{
+        height: 100px;
+        width: 100px;
+    }
+    .grid_item h3{
+        font-size: 24px;
+    }    
+  }

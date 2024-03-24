@@ -94,6 +94,8 @@ nav img{
         padding: 15px;
         border-radius: 50px;
         margin: 10px;
+        z-index: 1;
+        align-content: center;
     }
     nav ul{
         display: none;
@@ -107,6 +109,12 @@ nav img{
     }
     label[for="toggle_button"] span{
         display: block;
+    }
+    nav img{
+        width: 150px;
+        position: relative;
+        padding: 5px;
+        padding-left: 55px;
     }
 }
 

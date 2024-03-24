@@ -51,4 +51,8 @@
     html {
       font-size: 14px;
     }
+    .accordion-item-body-content img{
+      width: 550px;
+      height: auto;
+    }
   }
