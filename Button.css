@@ -14,6 +14,10 @@
     font-family: Mulish;
     font-size: 20px;
 }
+#general a{
+  text-decoration: none;
+  color: var(--text-color);
+}
 #general:hover {
     background: linear-gradient(to right, #59E0B3, #00FFAA);
     transition: 420ms ease-in-out;
@@ -63,9 +67,25 @@
     background: linear-gradient(to right, #59E0B3, #00FFAA);
     transition: 420ms ease-in-out;
 }
-
-@media (max-width: 800px){
-   *{
-      text-align: center;
-     }
-   }
+@media (max-width: 768px) {
+  #next-btn{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto; 
+  }
+  #general{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto; 
+  }
+  #general a{
+    text-decoration: none;
+    color: var(--text-color);
+  }
+}

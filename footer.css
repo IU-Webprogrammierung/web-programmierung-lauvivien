@@ -94,6 +94,14 @@ footer{
   #item5{
     grid-area: item5;
   }
+
+  #Me {
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+  }
+
   @media(max-width: 1300px){
     
     .grid_container{

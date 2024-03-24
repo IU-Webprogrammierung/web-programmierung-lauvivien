@@ -31,7 +31,13 @@ h1{
         font-size: 12vw;
         text-align: center;
     }
+    h2{
+        font-size: 9vw;
+    }
     .subtext{
         text-align: center;
+    }
+    p {
+        padding: 20px;
     }
 }
