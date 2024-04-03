@@ -38,6 +38,10 @@ h1{
         text-align: center;
     }
     p {
-        padding: 20px;
+        padding: 0.8em;
     }
 }
+.text-container p {
+    padding: 0px;
+}
+

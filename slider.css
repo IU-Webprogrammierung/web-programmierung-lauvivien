@@ -98,3 +98,27 @@
    line-height: 175%;
    font-size: 45px;
  }
+ @media(max-width: 800px) {
+   .centered-text {
+      max-width: 100%;
+      margin:0px;
+      padding-top:0px;
+    }
+    .overlay-text h3{
+      padding: 5vw 4vw;
+      font-size: 3vw;
+    }
+ }
+ @media(max-width: 460px) {
+   .centered-text h2{
+      font-size:9vw;
+    }
+    .centered-text{
+      padding: 1em;
+    }
+    .overlay-text h3{
+      padding: 3vw 2vw;
+      font-size: 3vw;
+      top:70%;
+    }
+ }

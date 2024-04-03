@@ -43,3 +43,9 @@ h3 {
     text-align: left;
     margin: 10px;
 }
+@media (max-width:800px){
+    .column{
+        padding:20px;
+        gap:0px;
+    }
+}

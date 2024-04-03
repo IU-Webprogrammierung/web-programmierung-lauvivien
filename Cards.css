@@ -44,11 +44,22 @@
     text-decoration: none;
     color: var(--text-color);
 }
+.card-title, .card-title{
+    word-break: normal;
+    overflow: hidden;
+    text-overflow: hidden;
+}
 @media(max-width: 800px){
     .card-container {
         flex-direction: column;
     }
     .card {
         width: 100%;
+    }
+    .card-title{
+        font-size:4.5vw;
+    }
+    .card-text{
+        font-size:3.7vw;
     }
 }
