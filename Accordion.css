@@ -44,7 +44,7 @@
     padding: 1rem;
     line-height: 175%;
     border-top: 1px solid;
-    border-image: linear-gradient(to right, transparent, var(--main-color), transparent) 1;
+    border-image: line 1;
   }
   
   @media(max-width:800px) {
