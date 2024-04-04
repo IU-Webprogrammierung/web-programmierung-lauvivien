@@ -61,3 +61,10 @@ h1{
 ::-webkit-scrollbar-button {
     background: transparent;
 }
+
+.section-divider {
+    border: none;
+    border-top: 2px solid #b71d11; 
+    border-radius: 50px;
+    margin: 50px 50px;
+  }
