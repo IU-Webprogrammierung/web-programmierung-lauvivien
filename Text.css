@@ -186,8 +186,8 @@ textarea {
   
   .tooltip {
     visibility: hidden;
-    width: 220px;
-    background-color: var(--main-color);
+    width: auto;
+    background-color: rgba(183, 29, 17, 0.8);
     color: #fff;
     font-size: 12px;
     text-align: center;
@@ -195,7 +195,7 @@ textarea {
     padding: 5px;
     position: absolute;
     z-index: 1;
-    bottom: 125%;
+    bottom: 100%;
     left: 50%;
     margin-left: -60px;
     opacity: 0;
@@ -211,7 +211,7 @@ textarea {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: var(--main-color) transparent transparent transparent;
+    border-color: rgba(183, 29, 17, 0.8) transparent transparent transparent;
   }
   
   .tooltip-container:hover .tooltip {
